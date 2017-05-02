@@ -31,6 +31,7 @@ html, body {
 	.container { width: 750px; }
 }
 
+
 /*****************************************************
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
@@ -39,6 +40,8 @@ html, body {
 /*corrects IE min-height bug*/
 html { display: flex;}
 body { width: 100%;}
+
+
 
 .sfooter {
 	display: flex;
@@ -53,3 +56,5 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
+
+h1 {color: orange;}
