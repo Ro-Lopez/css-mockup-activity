@@ -16,7 +16,7 @@
 
 			<header>
 				<div class="container">
-					<h1>Dylan McDonald!!!!!!!!!!!!!!!!!!!!!</h1>
+					<h1>Dylan McDonald00000</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan!.</em>
 				</div>
 			</header>
@@ -40,7 +40,7 @@
 							</div>
 							<div class="pull-right">
 								<img src="images/captain-janeway.png" alt="captain janeway" />
-									
+
 							</div>
 							<div class="clearfix"></div>
 						</div><!--/.instructions-->
