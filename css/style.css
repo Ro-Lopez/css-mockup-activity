@@ -73,5 +73,7 @@ div.pull-right {
 }
 
 ol {
-	border-style: solid; float: right;
+	border-style: solid; 
+	float: right;
+	color: #blue;
 }
