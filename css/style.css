@@ -68,6 +68,10 @@ header {
 
 
 
+div.pull-right {
+	border-style: solid; float: left;
+}
 
-
-
+ol {
+	border-style: solid; float: right;
+}

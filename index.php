@@ -40,6 +40,7 @@
 							</div>
 							<div class="pull-right">
 								<img src="images/captain-janeway.png" alt="captain janeway" />
+									
 							</div>
 							<div class="clearfix"></div>
 						</div><!--/.instructions-->
