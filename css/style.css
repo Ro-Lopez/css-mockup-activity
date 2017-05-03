@@ -59,8 +59,13 @@ body { width: 100%;}
 
 h1 {
 	color: white;
+	inline block
 }
 
 header {
 	background-color: orange;
+}
+
+ol {
+	border: orange;
 }
