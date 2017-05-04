@@ -57,70 +57,150 @@ body { width: 100%;}
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
 
+body{
+	font-family:sans-serif;
+}
 
+/*
+body{
+	padding: 3rem;
+}
+*/
+
+/*header styles*/
 header {
-	background-color: orange;
-}
-
-
-h1, em {
+	background-color: darkorange;
 	color: white;
+	padding: 2rem 0;
+}
+
+header h1 {
+	font-size: 4.5rem;
 	display: inline-block;
+	margin:0 3rem 0 0;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.instructions {
-	border-style: solid;
-	border-color: orange;
-	color:orange;
-	display: inline-block;
-}
+/*
 
 img[src="images/captain-janeway.png"] {
-	width: 200px;
+	float: right;
+}
 
+
+ol {
+	float: left;
+}
+*/
+
+/*instructios*/
+.instructions {
+	border: solid 3px darkorange;;
+	color:darkorange;
+
+	font-weight: bold;
+	line-height: 1.5rem;
+}
+
+.pull-right{
+	float: right;
+}
+
+.pull-left{
+	float: left;
 }
 
 
 
+img[src="images/captain-janeway.png"] {
+	width: 12rem;
+	border: solid lightgray 3px;
+}
 
+
+
+/*stuuning picture, text to right,light gray background, gray font*/
+
+section:nth-child(2) {
+	background-color: lightgray;
+	padding: 50px 50px 50px 50px;
+	width: 100%;
+	color: #555555;
+	line-height: 1.5;
+
+}
 
 img[src="images/stunning.jpg"] {
-	width: 300px;
+	width: 25rem;
 	display:inline-block;
+	margin-right: 2rem;
+	border:3px solid
+	;
 }
 
-.pull-right {
-	width: 100px;
+img[src="images/stunning.jpg"] {
+	float: left;
+}
+
+span{
+	font-weight: bold;
+}
+
+/*not working
+
+
+h2:nth-child(3) {
+	color: orange;
+	float: right;
+}
+*/
+
+
+
+/*text orange to the right, orange table*/
+
+
+section:nth-child(3){
+	text-align: right;
+	color: orange;
 }
 
 table, th, tr, td {
 
-	border: solid;
-	border-color: orange;
+	border: none;
+	border-color: darkorange;
 	width: 100%;
 	table-layout: fixed;
 	text-align: left;
+	margin: 0px 50px 50px 50px;
 }
+
 
 td,tr {
-	background-color: orange;
+	background-color: darkorange;
+	color: white;
+
 }
 
-h2:nth-child(3) {
-	color: orange;
+td, th {
+	background-color: darkorange;
+	color: white;
+	padding: 1rem;
 }
+
+
+/*footer*/
+
+
+footer {
+	background-color: black;
+
+}
+
+h4 {
+	color: lightgray;;
+}
+
+
