@@ -57,23 +57,67 @@ body { width: 100%;}
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
 
-h1 {
-	color: white;
-	/*inline block*/
-}
 
 header {
 	background-color: blue;
 }
 
 
-
-div.pull-right {
-	border-style: solid; float: left;
+h1, em {
+	color: white;
+	display: inline-block;
 }
 
-ol {
-	border-style: solid; 
-	float: right;
-	color: blue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.instructions {
+	border-style: solid;
+	border-color: orange;
+	color:orange;
+	display: inline-block;
 }
+
+img[src="images/captain-janeway.png"] {
+	width: 200px;
+
+}
+
+
+
+
+
+img[src="images/stunning.jpg"] {
+	width: 300px;
+	display:inline-block;
+}
+
+.pull-right {
+	width: 100px;
+}
+
+table, th, tr, td {
+
+	border: solid;
+	border-color: orange;
+	width: 100%;
+	table-layout: fixed;
+	text-align: left;
+}
+
+td,tr {
+	background-color: orange;
+}
+
